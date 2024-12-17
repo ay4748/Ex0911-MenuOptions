@@ -12,82 +12,40 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <EditText
+            android:id="@+id/et1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="10"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="num1: "
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="24sp" />
 
-            <EditText
-                android:id="@+id/et1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="80"
-                android:ems="10"
-                android:gravity="center_horizontal|center_vertical"
-                android:hint="num1: "
-                android:inputType="numberSigned|numberDecimal"
-                android:textSize="24sp" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10" />
-        </LinearLayout>
-
-        <LinearLayout
+        <EditText
+            android:id="@+id/et2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="10"
-            android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/et2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="80"
-                android:ems="10"
-                android:gravity="center_horizontal|center_vertical"
-                android:hint="num2:"
-                android:inputType="numberSigned|numberDecimal"
-                android:textSize="24sp" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10" />
-        </LinearLayout>
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="num2:"
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="24sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="5" />
+            android:layout_weight="1" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/tVans"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="10"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:text="answer"
+            android:textSize="34sp" />
 
-            <TextView
-                android:id="@+id/ans"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="80"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="answer"
-                android:textSize="24sp" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10" />
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="5" />
     </LinearLayout>
 </LinearLayout>
